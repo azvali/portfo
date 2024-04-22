@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+span{
+    font-weight: bold;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 100px;
+}
+.homeContainer{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.homeContainer video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.heroContainer{
+    width: 39vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homeContainer .heroContainer .buttons{
+    width: 35vw;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainBody{
+    width: 100vw;
+    height: 100vh;
+}
+
+.homeContainer .mainBody .title{
+    padding: 50px 100px;
+    width: 100vw;
+    height: 10vh;
+}
+
+.homeContainer .mainBody .projectsContainer{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homeContainer .mainBody .projectsContainer img{
+ width: 50vw;
+ height: 60vh;
+ margin: 100px 300px;
+}
+
+.homeContainer .mainBody .projectsContainer h1{
+    margin-top: 100px;
+}
+.homeContainer .mainBody .projectsContainer p{
+    width: 50vw;
+}
