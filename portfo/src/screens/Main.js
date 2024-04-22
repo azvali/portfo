@@ -48,15 +48,15 @@ function Main(){
                     <h1>Sorting Visualizer</h1>
                     <img src={sortimg} alt='Project Image'></img>
                     <p>
-                    I developed the "Sort Visualizer," a web-based application that visually 
-                    demonstrates sorting algorithms such as Bubble and Quick Sort, designed 
-                    for educational purposes. This interactive tool allows users to select 
-                    different algorithms and adjust the sorting speed to enhance learning. It 
-                    was built using HTML5, CSS3, and JavaScript, ensuring that the application 
-                    works seamlessly across various devices. The use of HTML5 ensures a 
-                    structured content layout, while CSS3 adds the necessary styling, and 
-                    JavaScript enables dynamic interactions, making the user experience both 
-                    intuitive and responsive.
+                        I developed the "Sort Visualizer," a web-based application that visually 
+                        demonstrates sorting algorithms such as Bubble and Quick Sort, designed 
+                        for educational purposes. This interactive tool allows users to select 
+                        different algorithms and adjust the sorting speed to enhance learning. It 
+                        was built using HTML5, CSS3, and JavaScript, ensuring that the application 
+                        works seamlessly across various devices. The use of HTML5 ensures a 
+                        structured content layout, while CSS3 adds the necessary styling, and 
+                        JavaScript enables dynamic interactions, making the user experience both 
+                        intuitive and responsive.
                     </p>
                     <h1>ChemTrack App</h1>
                     <img></img>
