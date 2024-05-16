@@ -6,6 +6,8 @@ import sortimg from '../assets/img/sortImg.png'
 import chemimg from '../assets/img/chemimg.png'
 import aiimg from '../assets/img/aiimg.png'
 import ouimg from '../assets/img/ouLogo.jpg'
+
+
 function Main(){
     return(
         <div className='homeContainer'>
