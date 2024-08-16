@@ -20,7 +20,7 @@ function Main() {
                 <p>Computer Science Senior at Oakland University with a passion for web and software development, AI innovation, and problem-solving. Proficient in <strong>Java, Python, JavaScript, React, and more</strong>. Actively contributing to research and real-world projects.</p>
                 <div className="contact">
                     <a href="mailto:yousefm2315@gmail.com">Email</a> | 
-                    <a href="https://www.linkedin.com/in/yousef-mardrosyan-3b38b4268/" target="_blank">LinkedIn</a> | 
+                    <a href="https://www.linkedin.com/in/yousef-mardrosyan-3b38b4268/" target="_blank">LinkedIn</a>   
                     <a href="https://github.com/azvali" target="_blank">GitHub</a>
                 </div>
             </header>
