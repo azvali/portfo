@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/portfo/static/css/main.8455dcca.css",
-    "main.js": "/portfo/static/js/main.b02061d2.js",
+    "main.css": "/portfo/static/css/main.84b63cb7.css",
+    "main.js": "/portfo/static/js/main.b0f9ab08.js",
     "static/js/453.cf50203e.chunk.js": "/portfo/static/js/453.cf50203e.chunk.js",
     "static/media/background.mp4": "/portfo/static/media/background.23343e61b3837f76e814.mp4",
+    "static/media/fooducate.png": "/portfo/static/media/fooducate.3fe890fb4f22a106ddac.png",
+    "static/media/dhs.png": "/portfo/static/media/dhs.6d055349137ccdaee335.png",
     "static/media/aiimg.png": "/portfo/static/media/aiimg.e052e0ccb559564ea3fa.png",
-    "static/media/chemimg.png": "/portfo/static/media/chemimg.d3a5fae01766ee03d44d.png",
     "static/media/ouLogo.jpg": "/portfo/static/media/ouLogo.8abb8fc5584956efbc17.jpg",
     "static/media/sortImg.png": "/portfo/static/media/sortImg.5d7c8f377d1fef82e637.png",
     "static/media/avatar.png": "/portfo/static/media/avatar.24aa3ee1203a70d5c42a.png",
     "index.html": "/portfo/index.html",
-    "main.8455dcca.css.map": "/portfo/static/css/main.8455dcca.css.map",
-    "main.b02061d2.js.map": "/portfo/static/js/main.b02061d2.js.map",
+    "main.84b63cb7.css.map": "/portfo/static/css/main.84b63cb7.css.map",
+    "main.b0f9ab08.js.map": "/portfo/static/js/main.b0f9ab08.js.map",
     "453.cf50203e.chunk.js.map": "/portfo/static/js/453.cf50203e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8455dcca.css",
-    "static/js/main.b02061d2.js"
+    "static/css/main.84b63cb7.css",
+    "static/js/main.b0f9ab08.js"
   ]
 }
