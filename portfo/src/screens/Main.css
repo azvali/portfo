@@ -16,7 +16,7 @@ body {
     z-index: 2;
 }
 
-/* Background Video */
+
 .background-video {
     position: fixed;
     top: 0;
@@ -24,14 +24,14 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1; /* Ensure it stays behind all content */
+    z-index: -1; 
 }
 
-/* Header (Hero Section) */
+
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background-color: #243b55; /* Solid color background */
+    background-color: #243b55;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     margin-bottom: 40px;
@@ -71,9 +71,9 @@ body {
     color: #FFD700;
 }
 
-/* Projects Section */
+
 .projects {
-    background-color: #1a1a1a; /* Solid background color */
+    background-color: #1a1a1a;
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 40px;
@@ -94,7 +94,7 @@ body {
 }
 
 .project-card {
-    background-color: #222; /* Solid background color */
+    background-color: #222;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     width: 40%;
@@ -126,9 +126,9 @@ body {
     color: #ddd;
 }
 
-/* Experience Section */
+
 .experience {
-    background-color: #1a1a1a; /* Solid background color */
+    background-color: #1a1a1a; 
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 40px;
@@ -144,7 +144,7 @@ body {
 .experience-item {
     display: flex;
     align-items: center;
-    background-color: #222; /* Solid background color */
+    background-color: #222; 
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     padding: 20px;
@@ -174,9 +174,9 @@ body {
     color: #ddd;
 }
 
-/* Education Section */
+
 .education {
-    background-color: #1a1a1a; /* Solid background color */
+    background-color: #1a1a1a; 
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 40px;
@@ -192,7 +192,7 @@ body {
 .education-item {
     display: flex;
     align-items: center;
-    background-color: #222; /* Solid background color */
+    background-color: #222; 
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     padding: 20px;
@@ -222,7 +222,7 @@ body {
     color: #ddd;
 }
 
-/* Footer Section */
+
 footer {
     background: #141e30;
     color: #fff;
@@ -247,7 +247,7 @@ footer a:hover {
     color: #FFD700;
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 1024px) {
     .project-card {
         width: 45%;
