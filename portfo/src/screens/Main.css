@@ -1,20 +1,18 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body with Subtle Gradient */
+
 body {
   font-family: 'Arial', sans-serif;
   color: #333;
   background: linear-gradient(135deg, #f7f7f7 0%, #e5e7eb 100%);
 }
 
-/* ------------------------------
-   NAVIGATION
------------------------------- */
+
 .navbar {
   background-color: #ffffff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
@@ -59,9 +57,7 @@ body {
   color: #0077ff;
 }
 
-/* ------------------------------
-   HERO SECTION
------------------------------- */
+
 .hero-section {
   display: flex;
   align-items: center;
@@ -70,7 +66,7 @@ body {
 }
 
 .hero-content {
-  background-color: #2f3e46; /* Dark card background */
+  background-color: #2f3e46; 
   color: #ffffff;
   padding: 40px;
   border-radius: 12px;
@@ -113,9 +109,7 @@ body {
   color: #ffb400;
 }
 
-/* ------------------------------
-   SECTION TITLES
------------------------------- */
+
 .section-title {
   text-align: center;
   font-size: 2rem;
@@ -124,9 +118,7 @@ body {
   font-weight: 600;
 }
 
-/* ------------------------------
-   PROJECTS SECTION
------------------------------- */
+
 .projects-section {
   max-width: 1200px;
   margin: 0 auto;
@@ -186,9 +178,7 @@ body {
   line-height: 1.5;
 }
 
-/* ------------------------------
-   COMPETITIVE PROGRAMMING
------------------------------- */
+
 .competitive-programming-section {
   max-width: 900px;
   margin: 0 auto 60px;
@@ -218,9 +208,7 @@ body {
   color: #005bb5;
 }
 
-/* ------------------------------
-   SKILLS SECTION
------------------------------- */
+
 .skills-section {
   max-width: 900px;
   margin: 0 auto 60px;
@@ -241,9 +229,6 @@ body {
   color: #333;
 }
 
-/* ------------------------------
-   EXPERIENCE SECTION
------------------------------- */
 .experience-section {
   max-width: 900px;
   margin: 0 auto;
@@ -276,9 +261,7 @@ body {
   line-height: 1.5;
 }
 
-/* ------------------------------
-   EDUCATION SECTION
------------------------------- */
+
 .education-section {
   max-width: 900px;
   margin: 0 auto 60px;
@@ -311,9 +294,7 @@ body {
   line-height: 1.5;
 }
 
-/* ------------------------------
-   FOOTER
------------------------------- */
+
 .footer-section {
   background-color: #2f3e46;
   color: #ffffff;
@@ -339,12 +320,10 @@ body {
   color: #ffb400;
 }
 
-/* ------------------------------
-   RESPONSIVE MEDIA QUERIES
------------------------------- */
+
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* or implement a burger menu if needed */
+    display: none; 
   }
 
   .hero-content {
