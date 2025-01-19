@@ -8,7 +8,7 @@ import aiImg from '../assets/img/aiimg.png';
 import sortImg from '../assets/img/sortImg.png';
 import githubLogo from '../assets/img/githublogo.png';
 import rpiImg from '../assets/img/rpi.jpg';
-import resume from '../assets/img/Yousef_Mardrosyan_Resume.pdf';
+import resume from '../assets/img/Yousef_Mardrosyan.pdf';
 
 // Experience Logos
 import dhsLogo from '../assets/img/dhs.png';
