@@ -8,6 +8,7 @@ import aiImg from '../assets/img/aiimg.png';
 import sortImg from '../assets/img/sortImg.png';
 import githubLogo from '../assets/img/githublogo.png';
 import rpiImg from '../assets/img/rpi.jpg';
+import whispImg from '../assets/img/Whisp.png';
 import resume from '../assets/img/Yousef_Mardrosyan.pdf';
 
 // Experience Logos
@@ -43,7 +44,7 @@ function Main() {
             December 2024 graduate from Oakland University with a B.S. in Computer Science (GPA: 3.61). 
             Passionate about building AI-driven software solutions using 
             <strong> Java, Python, JavaScript, React,</strong> and more. 
-            Experienced through DHS and university research roles, I’m dedicated to 
+            Experienced through DHS and university research roles, I'm dedicated to 
             delivering innovative solutions and thriving on real-world problem-solving.
           </p>
 
@@ -76,6 +77,25 @@ function Main() {
       <section className="projects-section" id="projects">
         <h2 className="section-title">Projects</h2>
         <div className="projects-grid">
+          {/* Whisp Project */}
+          <div className="project-card">
+            <div className="project-image-wrapper">
+              <img 
+                src={whispImg}
+                alt="Whisp Messaging App"
+                className="project-image"
+              />
+            </div>
+            <div className="project-content">
+              <h3>Whisp</h3>
+              <p>
+                Developed a full-stack messaging web-app with real-time friend requests and 
+                messaging using SocketIO, secure JWT authentication, and a RESTful API backend 
+                in Flask. Built with React, PostgreSQL, and features password recovery.
+              </p>
+            </div>
+          </div>
+          
           {/* Project 1 */}
           <div className="project-card">
             <div className="project-image-wrapper">
@@ -289,7 +309,7 @@ function Main() {
           </div>
           <p>
             Bachelor of Science in Computer Science, graduated in December 2024. 
-            Consistent Dean’s List honoree with a 3.61 GPA.
+            Consistent Dean's List honoree with a 3.61 GPA.
           </p>
         </div>
       </section>

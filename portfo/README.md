@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Yousef Mardrosyan - Professional Portfolio
+
+A responsive, modern portfolio website built with React to showcase my projects, skills, and experience.
+
+## Featured Projects
+
+### Whisp
+- **Technologies**: React, Flask, PostgreSQL, SocketIO, JWT Authentication, REST APIs
+- **Description**: A full-stack messaging web-app with real-time friend requests and messaging using SocketIO for instant sending and receiving. Features secure user authentication with JWT tokens, password hashing, and email password recovery.
+
+### Fooducate App
+- **Technologies**: React Native, Machine Learning
+- **Description**: An AI-driven nutrition app that identifies nutritional values from images, enhancing user engagement and health tracking.
+
+### AI Assistant
+- **Technologies**: Python, GPT API
+- **Description**: A Python-based chatbot using GPT API to assist students with project development and UML diagram generation, improving project outcomes and learning experiences.
+
+### Sort Visualizer
+- **Description**: An interactive tool to demonstrate sorting algorithms, engaging over 1,000 users with a user-friendly interface and customizable settings.
+
+### Parallel GPT Summaries
+- **Description**: A web app to retrieve and summarize GitHub commits using GPT, demonstrating performance gains by running requests in parallel vs. sequential.
+
+### Raspberry Pi Parking Availability Monitor
+- **Description**: A camera-based system on Raspberry Pi to capture hourly parking lot images, using GPT to evaluate availability with live updates on a website.
+
+## Skills
+
+- **Programming Languages**: Java, Python, JavaScript, TypeScript, C++, SQL, C
+- **Frameworks/Libraries**: React, React Native, Node.js, Flask
+- **Tools & Technologies**: GPT API, API Integrations, Docker, Figma, Firebase
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Running the Project Locally
 
-In the project directory, you can run:
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/portfolio.git
 
-### `npm start`
+# Navigate to the project directory
+cd portfolio
 
-Runs the app in the development mode.\
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contact
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Email**: yousefm2315@gmail.com
+- **LinkedIn**: [Yousef Mardrosyan](https://www.linkedin.com/in/yousef-mardrosyan-3b38b4268/)
+- **GitHub**: [azvali](https://github.com/azvali)
