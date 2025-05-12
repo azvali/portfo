@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfo/static/css/main.eaca8a55.css",
+    "main.js": "/portfo/static/js/main.60fe6ed8.js",
+    "static/js/453.cf50203e.chunk.js": "/portfo/static/js/453.cf50203e.chunk.js",
+    "static/media/fooducate.png": "/portfo/static/media/fooducate.3fe890fb4f22a106ddac.png",
+    "static/media/dhs.png": "/portfo/static/media/dhs.6d055349137ccdaee335.png",
+    "static/media/aiimg.png": "/portfo/static/media/aiimg.e052e0ccb559564ea3fa.png",
+    "static/media/Yousef_Mardrosyan.pdf": "/portfo/static/media/Yousef_Mardrosyan.a5fc9ba7e56c184e3bc7.pdf",
+    "static/media/ouLogo.jpg": "/portfo/static/media/ouLogo.8abb8fc5584956efbc17.jpg",
+    "static/media/rpi.jpg": "/portfo/static/media/rpi.a8f63e7bdbea31ff8d5d.jpg",
+    "static/media/sortImg.png": "/portfo/static/media/sortImg.5d7c8f377d1fef82e637.png",
+    "static/media/Whisp.png": "/portfo/static/media/Whisp.6522a1b85e1c0efa09d1.png",
+    "static/media/githublogo.png": "/portfo/static/media/githublogo.4ac5642c3a0372d94948.png",
+    "static/media/avatar.png": "/portfo/static/media/avatar.24aa3ee1203a70d5c42a.png",
+    "index.html": "/portfo/index.html",
+    "main.eaca8a55.css.map": "/portfo/static/css/main.eaca8a55.css.map",
+    "main.60fe6ed8.js.map": "/portfo/static/js/main.60fe6ed8.js.map",
+    "453.cf50203e.chunk.js.map": "/portfo/static/js/453.cf50203e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaca8a55.css",
+    "static/js/main.60fe6ed8.js"
+  ]
+}
