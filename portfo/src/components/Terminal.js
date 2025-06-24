@@ -9,14 +9,6 @@ import ContactForm from './ContactForm';
 import resumePDF from '../assets/img/Yousef_Mardrosyan.pdf';
 import './Terminal.css';
 
-const SectionTitle = ({ command }) => (
-    <div className="section-title">
-        <span className="prompt">C:\\Users\\Recruiter&gt;</span>
-        <span className="command">{command}</span>
-    </div>
-);
-
-// Centralized Experience Data
 const experienceData = [
     {
       file: "dhs_intern.txt",

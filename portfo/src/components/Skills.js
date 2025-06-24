@@ -1,10 +1,8 @@
 import React from 'react';
-import './Skills.css';
-import { 
-  FaReact, FaNodeJs, FaPython, FaDatabase, FaJsSquare, FaCss3Alt, FaHtml5, FaGitAlt
-} from 'react-icons/fa';
-import { SiFlask, SiPostgresql, SiDotnet, SiTypescript, SiCplusplus, SiFirebase } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaPython, FaDatabase, FaJsSquare, FaCss3Alt, FaHtml5, FaGitAlt, FaDocker, FaAws } from 'react-icons/fa';
+import { SiFlask, SiPostgresql, SiDotnet, SiCplusplus, SiFirebase } from 'react-icons/si';
 import { TbBrandCSharp } from 'react-icons/tb';
+import './Skills.css';
 
 const skills = [
     { name: 'C#', icon: <TbBrandCSharp /> },
@@ -21,6 +19,8 @@ const skills = [
     { name: 'PostgreSQL', icon: <SiPostgresql /> },
     { name: 'Firebase', icon: <SiFirebase /> },
     { name: 'Git', icon: <FaGitAlt /> },
+    { name: 'Docker', icon: <FaDocker /> },
+    { name: 'AWS', icon: <FaAws /> },
 ];
 
 const Skills = () => {
