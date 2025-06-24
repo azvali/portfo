@@ -332,8 +332,10 @@ const Terminal = () => {
                         </div>
                     ))}
                     {promptReady && (
-                        <div className="input-line">
+                        <div className="input-line" onClick={() => inputRef.current?.focus()}>
                             <span className="prompt">root@yousef:~$</span>
+                            <span className="input-text">{input}</span>
+                            <span className="blinking-cursor" />
                             <input
                                 ref={inputRef}
                                 type="text"
@@ -342,6 +344,7 @@ const Terminal = () => {
                                 onKeyDown={handleKeyDown}
                                 disabled={!promptReady}
                                 autoFocus
+                                style={{ position: 'absolute', top: '-9999px', left: '-9999px', opacity: 0, pointerEvents: 'none' }}
                             />
                         </div>
                     )}

@@ -161,16 +161,8 @@
     flex-shrink: 0;
 }
 
-.input-line input {
-    background: transparent;
-    border: none;
-    color: var(--text-color);
-    font-family: 'VT323', monospace;
-    font-size: 1.2em;
-    width: 100%;
-    outline: none;
-    text-shadow: 0 0 5px var(--primary-color);
-    caret-color: transparent;
+.input-text {
+    white-space: pre;
 }
 
 .output {
