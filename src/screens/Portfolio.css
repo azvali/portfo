@@ -1,0 +1,7 @@
+.portfolio-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    overflow: hidden; /* Hide anything that goes outside the desktop */
+}

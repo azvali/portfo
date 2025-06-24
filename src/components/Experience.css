@@ -1,0 +1,213 @@
+/* Timeline container */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The vertical line */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: var(--surface-color);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container for each item */
+.timeline-item-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-item-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: var(--background-color);
+  border: 4px solid var(--primary-color);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place containers to the left */
+.timeline-left {
+  left: 0;
+}
+
+/* Place containers to the right */
+.timeline-right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.timeline-left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid var(--surface-color);
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent var(--surface-color);
+}
+
+/* Add arrows to the right container (pointing left) */
+.timeline-right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid var(--surface-color);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent var(--surface-color) transparent transparent;
+}
+
+/* Fix the circle for right containers */
+.timeline-right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.timeline-content {
+  padding: 20px 30px;
+  background-color: var(--surface-color);
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.experience-item {
+  background-color: var(--surface-color);
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border-left: 5px solid var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.experience-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.experience-header .icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+.experience-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.experience-header span {
+  margin: 0;
+  color: var(--subtle-text-color);
+  font-style: italic;
+}
+
+.experience-item ul {
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+.experience-item li {
+  margin-bottom: 10px;
+  color: var(--subtle-text-color);
+  list-style-type: disc;
+}
+
+.experience-section {
+    padding: 2rem 0;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+
+.prompt {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+.experience-timeline {
+    border-left: 2px solid var(--border-color);
+    margin-left: 3rem;
+    padding: 1rem 0 1rem 2rem;
+    position: relative;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+    content: '>';
+    position: absolute;
+    left: -2rem;
+    top: 0.2rem;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    line-height: 1;
+    transform: translateX(-55%);
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-content h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.25rem;
+}
+
+.company-duration {
+    font-size: 1rem;
+    color: var(--subtle-text-color);
+    margin-bottom: 1rem;
+}
+
+.timeline-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.timeline-content ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.timeline-content ul li::before {
+    content: '-';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+} 
