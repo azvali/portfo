@@ -30,10 +30,9 @@
 
 body {
   font-family: 'VT323', monospace;
-  background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
-  cursor: text;
+  cursor: default;
   text-shadow: 0 0 5px var(--primary-color);
 }
 
@@ -75,7 +74,7 @@ ul {
 }
 
 a, button {
-  cursor: cell;
+  cursor: pointer;
 }
 
 .light-theme body {
