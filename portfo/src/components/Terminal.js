@@ -318,30 +318,33 @@ const Terminal = () => {
                         </button>
                     </div>
                 </div>
-                <div className="terminal-body" ref={terminalBodyRef}>
+                <div className="terminal-body" ref={terminalBodyRef} onClick={handleTerminalClick}>
                     {history.map((item, index) => (
-                        <div key={index}>
+                        <div key={index} className={item.type}>
                             {item.type === 'command' ? (
-                                <div>
-                                    <span className="prompt">C:\\Users\\Recruiter&gt;</span>
+                                <div className="input-line">
+                                    <span className="prompt">root@yousef:~$</span>
                                     <span>{item.text}</span>
                                 </div>
                             ) : (
-                                <div className="output">{item.text}</div>
+                                item.text
                             )}
                         </div>
                     ))}
-                    <div className="input-line" style={{ visibility: promptReady ? 'visible' : 'hidden' }}>
-                        <span className="prompt">C:\\Users\\Recruiter&gt;</span>
-                        <input
-                            ref={inputRef}
-                            type="text"
-                            value={input}
-                            onKeyDown={handleKeyDown}
-                            onChange={(e) => setInput(e.target.value)}
-                            disabled={!promptReady}
-                        />
-                    </div>
+                    {promptReady && (
+                        <div className="input-line">
+                            <span className="prompt">root@yousef:~$</span>
+                            <input
+                                ref={inputRef}
+                                type="text"
+                                value={input}
+                                onChange={(e) => setInput(e.target.value)}
+                                onKeyDown={handleKeyDown}
+                                disabled={!promptReady}
+                                autoFocus
+                            />
+                        </div>
+                    )}
                     <div ref={terminalEndRef} />
                 </div>
             </div>

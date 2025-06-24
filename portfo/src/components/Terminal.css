@@ -137,7 +137,13 @@
 }
 
 .blinking-cursor {
-  animation: blink 1s step-start infinite;
+  animation: blink 1s step-end infinite;
+  background-color: var(--primary-color);
+  display: inline-block;
+  width: 10px; 
+  height: 1.2em; 
+  margin-left: 2px;
+  box-shadow: 0 0 5px var(--primary-color);
 }
 
 .prompt {
@@ -160,10 +166,11 @@
     border: none;
     color: var(--text-color);
     font-family: 'VT323', monospace;
-    font-size: 16px;
+    font-size: 1.2em;
     width: 100%;
     outline: none;
     text-shadow: 0 0 5px var(--primary-color);
+    caret-color: transparent;
 }
 
 .output {
