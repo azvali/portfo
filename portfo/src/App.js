@@ -1,11 +1,14 @@
-import Main from './screens/Main.js';
-
+import React from 'react';
+import Portfolio from './screens/Portfolio';
+import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
   return (
-    <div className="App">
-      <Main/>
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        <Portfolio />
+      </div>
+    </ThemeProvider>
   );
 }
 

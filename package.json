@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-mdr": "^0.1.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
