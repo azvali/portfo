@@ -149,7 +149,7 @@ const Terminal = () => {
             return 'Opening Resume...';
         },
         email: () => {
-            const email = 'yousef.mardrosyan@gmail.com';
+            const email = 'yousefm2787@gmail.com';
             window.location.href = `mailto:${email}`;
             return `Opening mail client for ${email}...`;
         },
