@@ -241,6 +241,7 @@ const Terminal = () => {
             setPromptReady(true);
             setInput('');
             setHistoryIndex(-1);
+            
         } else if (e.key === 'ArrowUp') {
             if (commandHistory.length > 0 && historyIndex < commandHistory.length - 1) {
                 const newIndex = historyIndex + 1;
