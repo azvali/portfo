@@ -23,6 +23,7 @@ const skills = [
     { name: 'AWS', icon: <FaAws /> },
 ];
 
+
 const Skills = () => {
     return (
         <section id="skills" className="skills-section">

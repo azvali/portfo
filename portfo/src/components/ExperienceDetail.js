@@ -1,5 +1,5 @@
 import React from 'react';
-import './Experience.css'; // We can reuse the existing styles
+import './Experience.css'; 
 
 const ExperienceDetail = ({ experience }) => {
   if (!experience) {
